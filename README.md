@@ -11,4 +11,8 @@ We are the 3 Moussaillons.
 
 ## Font Reference
 
-Original Surfer Static, sans-sérif
+Titles
+Original Surfer
+
+Text
+Crimson Text
