@@ -1,0 +1,67 @@
+/* BALISES */
+
+footer {
+    background-color: rgb(27, 35, 39);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    min-height: 176px;
+    padding-bottom: 80px;
+}
+
+p {
+    padding: 0 25px;
+    margin: auto;
+}
+
+div {
+    margin: 5px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* ID */
+
+
+
+/* CLASSES */
+
+.logogit {
+    height: 40px;
+    width: auto;
+    border-radius: 20px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    margin-top: 5px;
+}
+
+.logogit:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(182, 182, 182, 0.2);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.conditions {
+    color: rgb(168, 168, 168);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.conditions p {
+    margin: 0;
+    padding: 0 10px;
+}
+
+.conditions p:hover {
+    cursor: pointer;
+}
+
+.copyright {
+    font-size: 20px;
+}
