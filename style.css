@@ -1,3 +1,7 @@
-nav {
-    background-color: rgb(27, 35, 39)
+.navbar-brand {
+    color: beige;
+}
+
+a {
+    font-size: large;
 }
