@@ -7,9 +7,8 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px 0;
+    padding: 30px 0;
     min-height: 176px;
-    padding-bottom: 80px;
 }
 
 p {
@@ -19,9 +18,23 @@ p {
 
 div {
     margin: 5px 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+}
+
+a {
+    font-size: large;
+}
+
+body {
+    background-color: rgb(13, 22, 27);
+}
+
+li {
+    margin: auto;
+    padding: 0 5px;
+}
+
+button {
+    margin: auto 5px;
 }
 
 /* ID */
@@ -63,5 +76,51 @@ div {
 }
 
 .copyright {
-    font-size: 20px;
+    font-size: 25px;
+}
+
+.copyr {
+    font-size: xx-large;
+}
+
+.navbar-brand {
+    color: beige;
+}
+
+.py-5 {
+    margin: 173px auto;
+}
+
+.text-uppercase {
+    font-size: x-large;
+}
+
+.text-gradient {
+    color: #6c757d;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* POLICE */
+
+.original-surfer-regular {
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* RESPONSIVES */
+
+@media (max-width: 486px) {
+    .conditions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px;
+    }
 }

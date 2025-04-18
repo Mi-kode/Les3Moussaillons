@@ -9,12 +9,73 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
+    <!-- POLICE -->
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Original+Surfer&display=swap');
+    </style>
+
     <title>Les 3 Moussaillons</title>
   </head>
-  <body>
+  <body style="font-family: sans-serif;">
+    <header>
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand original-surfer-regular">Les 3 Moussaillons</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.thehackingproject.org/" target="_blank">THP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://mi-kode.github.io/AmazingProjects/" target="_blank">La Promo Chill</a>
+              </li>
+              <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  L3M
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="https://github.com/Mi-kode" target="_blank">Tom</a></li>
+                  <li><a class="dropdown-item" href="https://github.com/Yolls24" target="_blank">Johann</a></li>
+                  <li><a class="dropdown-item" href="https://github.com/Martine9670" target="_blank">Martine</a></li>
+                </ul>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="py-5">
+        <div class="container px-5">
+            <div class="row align-items-center">
+                <div class="col-xxl-7">
+                    <div class="text-center text-xxl-start">
+                        <div class="badge bg-gradient text-white mb-4">
+                            <div class="text-uppercase">Design · Development · Marketing</div>
+                        </div>
+                        <div class="fs-3 fw-light text-muted">Nous donnons vie à vos idées</div>
+                        <h1 class="display-3 fw-bolder mb-5">
+                            <span class="text-gradient d-inline">Accélérons votre visibilité</span>
+                        </h1>
+                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                            <a id="googleAgendaButton" class="btn btn-outline-primary btn-lg px-5 py-3 fs-6 fw-bolder" href="#">Prendre rendez-vous</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-5">
+                    <div class="card bg-dark text-white">
+                        <img src="images/L3M.jpg" class="card-img" alt="Logo du groupe les 3 Moussaillons" style="width: 100%; height: auto;">
+                        <div class="card-img-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
     <footer>
       <div>
-        <p class="copyright">&copy Les 3 Moussaillons 2025</p>
+        <p class="copyright original-surfer-regular" style="align-items: center;"><span class="copyr">&copy </span>Les 3 Moussaillons 2025</p>
       </div>
       <div>
         <a href="https://github.com/Mi-kode/Les3Moussaillons/tree/main" target="_blank"><img class="logogit" src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" alt="logo github"></a>
@@ -24,5 +85,12 @@
           <p>Politique de confidentialité</p>
       </div>
     </footer>
-  </body>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script>
+    document.getElementById('googleAgendaButton').addEventListener('click', function(event) {
+        event.preventDefault(); // Empêche le comportement par défaut du lien
+        window.location.href = "https://www.hubspot.fr/products/sales/schedule-meeting?hubs_content=blog.hubspot.fr/sales/prise-de-rdv-en-ligne&hubs_content-cta=Découvrir+l'outil&hubs_post=blog.hubspot.fr/sales/prise-de-rdv-en-ligne&hubs_post-cta=fr-blog-author";
+    });
+  </script>
 </html>
